@@ -1,42 +1,15 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
+var passwordLength = []
+for (var i = 8; i <= 128; i++) {
+    passwordLength.push(i)
 }
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+console.log(passwordLength)
+//need arrays defined for different types of character types//
+var upperCase =[]
+var lowerCase = []
+var numeric = []
+var specialChar = [] 
 
-var passwordLength = [];
- 
-    for (var i = 8; i <= 128; i++) {
-       passwordLength.push(i);
-    }
- 
-    console.log(passwordLength)
 
-window.prompt(passwordLength)
 
-//var characterTypes = ["special characters", "no special characters"] //use confirm method for character type//
-
-//console.log(characterTypes)//
-
-  // Ask user for their choice
-  var userChoice = window.prompt("Enter number between 8 and 128 for password legnth");
-
-  //var userChoice2 = window.prompt2("Does password include special characters?")//
-
-  
-  
-  //if (userChoice.includes(passwordLength)) {
-    //prompt2();
-  // else if (userChoice2.includes(characterTypes)) {
-    //writePassword();
-   //
-
+// I'm thinking using math function somehwere within JS to pick the length of password. where to put it? I don't know. towards the bottom. what else to put with it? not sure yet Math.floor(Math.random() * 128) + 8;
