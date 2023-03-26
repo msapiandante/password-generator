@@ -3,7 +3,7 @@
 
 ## Description
 
-I was tasked with creating a functioning random password generator for an employer to give their employees. As technology continues to evolve and grow, more and more of people's information is at risk to identity theft. A random password generator would help the employer keep data for their company safer.I learned about arrays, functions, if and else if statements in JavaScript. I also learned how to link JavaScript to the HTML. Unfortunately, I still have much to learn as I could not debug my code prior to assignment submission. 
+I was tasked with creating a functioning random password generator for an employer to give their employees. As technology continues to evolve and grow, more and more of people's information is at risk to identity theft. A random password generator would help the employer keep data for their company safer.I learned about arrays, functions, if and else if statements in JavaScript. I also learned how to link JavaScript to the HTML. I look forward to understanding and learning more about debugging. 
 
 ## Credits
 https://www.w3schools.com/js/js_functions.asp
